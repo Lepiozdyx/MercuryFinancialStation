@@ -11,8 +11,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
         self.application = application
-//        onGameStart()
-//        return true
         showLoadingScreen()
         initApp()
         

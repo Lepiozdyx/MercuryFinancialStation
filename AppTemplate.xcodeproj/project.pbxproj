@@ -442,8 +442,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mercury Financial station";
-				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to take photos and videos.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to save photos and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to save photos and videos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -479,8 +478,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mercury Financial station";
-				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to take photos and videos.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to save photos and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to save photos and videos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
