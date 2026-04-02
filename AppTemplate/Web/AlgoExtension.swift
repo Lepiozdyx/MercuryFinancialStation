@@ -97,8 +97,8 @@ extension AppDelegate : UNUserNotificationCenterDelegate
                     if let logo = loadingVC.view.viewWithTag(1) as? UIImageView {
                         let pulseAnimation = CABasicAnimation(keyPath: "transform.scale")
                         pulseAnimation.duration = 1
-                        pulseAnimation.fromValue = 1
-                        pulseAnimation.toValue = 0.5
+                        pulseAnimation.fromValue = 1.1
+                        pulseAnimation.toValue = 0.85
                         pulseAnimation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
                         pulseAnimation.autoreverses = true
                         pulseAnimation.repeatCount = .infinity
