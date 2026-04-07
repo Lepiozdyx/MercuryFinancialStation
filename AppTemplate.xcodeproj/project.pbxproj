@@ -9,25 +9,26 @@
 /* Begin PBXBuildFile section */
 		CE5F035A2E90173A004E65F1 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */; };
 		CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */; };
-		FAE4D0A82F7EA16300123F9A /* sfx_lever_step.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE4D0982F7EA16300123F9A /* sfx_lever_step.wav */; };
-		FAE4D0A92F7EA16300123F9A /* sfx_point_click.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE4D0992F7EA16300123F9A /* sfx_point_click.wav */; };
-		FAE4D0AA2F7EA16300123F9A /* sfx_coil_rotate.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE4D0972F7EA16300123F9A /* sfx_coil_rotate.wav */; };
-		FAE4D0AB2F7EA16300123F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE4D0A62F7EA16300123F9A /* Assets.xcassets */; };
-		FAE4D0AC2F7EA16300123F9A /* ConsoleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D09E2F7EA16300123F9A /* ConsoleScreenView.swift */; };
-		FAE4D0AD2F7EA16300123F9A /* StatsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0A32F7EA16300123F9A /* StatsScreenView.swift */; };
-		FAE4D0AE2F7EA16300123F9A /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D09A2F7EA16300123F9A /* SoundManager.swift */; };
-		FAE4D0AF2F7EA16300123F9A /* ShopScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0A22F7EA16300123F9A /* ShopScreenView.swift */; };
-		FAE4D0B02F7EA16300123F9A /* ScreenHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D09C2F7EA16300123F9A /* ScreenHeaderView.swift */; };
-		FAE4D0B12F7EA16300123F9A /* TransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0952F7EA16300123F9A /* TransactionRecord.swift */; };
-		FAE4D0B22F7EA16300123F9A /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0912F7EA16300123F9A /* NotificationManager.swift */; };
-		FAE4D0B32F7EA16300123F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D09F2F7EA16300123F9A /* ContentView.swift */; };
-		FAE4D0B42F7EA16300123F9A /* ConsolasFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0902F7EA16300123F9A /* ConsolasFont+Extension.swift */; };
-		FAE4D0B52F7EA16300123F9A /* MercuryFinancialStationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D08D2F7EA16300123F9A /* MercuryFinancialStationApp.swift */; };
-		FAE4D0B62F7EA16300123F9A /* ShiftDaySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0932F7EA16300123F9A /* ShiftDaySummary.swift */; };
-		FAE4D0B72F7EA16300123F9A /* RootTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0A12F7EA16300123F9A /* RootTabBarView.swift */; };
-		FAE4D0B82F7EA16300123F9A /* InputScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0A02F7EA16300123F9A /* InputScreenView.swift */; };
-		FAE4D0B92F7EA16300123F9A /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D08F2F7EA16300123F9A /* Colors+Extension.swift */; };
-		FAE4D0BA2F7EA16300123F9A /* StationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D0942F7EA16300123F9A /* StationState.swift */; };
+		FA5B544B2F8565D00090E5C9 /* InputScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54422F8565D00090E5C9 /* InputScreenView.swift */; };
+		FA5B544C2F8565D00090E5C9 /* ConsolasFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54322F8565D00090E5C9 /* ConsolasFont+Extension.swift */; };
+		FA5B544D2F8565D00090E5C9 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54332F8565D00090E5C9 /* NotificationManager.swift */; };
+		FA5B544E2F8565D00090E5C9 /* ConsoleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54402F8565D00090E5C9 /* ConsoleScreenView.swift */; };
+		FA5B544F2F8565D00090E5C9 /* ShopScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54452F8565D00090E5C9 /* ShopScreenView.swift */; };
+		FA5B54502F8565D00090E5C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54412F8565D00090E5C9 /* ContentView.swift */; };
+		FA5B54512F8565D00090E5C9 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B543C2F8565D00090E5C9 /* SoundManager.swift */; };
+		FA5B54522F8565D00090E5C9 /* MissionsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54432F8565D00090E5C9 /* MissionsScreenView.swift */; };
+		FA5B54532F8565D00090E5C9 /* ShiftDaySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54352F8565D00090E5C9 /* ShiftDaySummary.swift */; };
+		FA5B54542F8565D00090E5C9 /* TransactionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54372F8565D00090E5C9 /* TransactionRecord.swift */; };
+		FA5B54552F8565D00090E5C9 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54312F8565D00090E5C9 /* Colors+Extension.swift */; };
+		FA5B54562F8565D00090E5C9 /* RootTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54442F8565D00090E5C9 /* RootTabBarView.swift */; };
+		FA5B54572F8565D00090E5C9 /* AppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B542F2F8565D00090E5C9 /* AppContentView.swift */; };
+		FA5B54582F8565D00090E5C9 /* StatsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54462F8565D00090E5C9 /* StatsScreenView.swift */; };
+		FA5B54592F8565D00090E5C9 /* ScreenHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B543E2F8565D00090E5C9 /* ScreenHeaderView.swift */; };
+		FA5B545A2F8565D00090E5C9 /* StationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B54362F8565D00090E5C9 /* StationState.swift */; };
+		FA5B545B2F8565D00090E5C9 /* sfx_coil_rotate.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA5B54392F8565D00090E5C9 /* sfx_coil_rotate.wav */; };
+		FA5B545C2F8565D00090E5C9 /* sfx_lever_step.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA5B543A2F8565D00090E5C9 /* sfx_lever_step.wav */; };
+		FA5B545D2F8565D00090E5C9 /* sfx_point_click.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA5B543B2F8565D00090E5C9 /* sfx_point_click.wav */; };
+		FA5B545E2F8565D00090E5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5B54492F8565D00090E5C9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,25 +48,26 @@
 		CE7115342E6F0AB000BFCB5A /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF3187B2E72A659004E27D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		FAE4D08D2F7EA16300123F9A /* MercuryFinancialStationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercuryFinancialStationApp.swift; sourceTree = "<group>"; };
-		FAE4D08F2F7EA16300123F9A /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
-		FAE4D0902F7EA16300123F9A /* ConsolasFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsolasFont+Extension.swift"; sourceTree = "<group>"; };
-		FAE4D0912F7EA16300123F9A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		FAE4D0932F7EA16300123F9A /* ShiftDaySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftDaySummary.swift; sourceTree = "<group>"; };
-		FAE4D0942F7EA16300123F9A /* StationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationState.swift; sourceTree = "<group>"; };
-		FAE4D0952F7EA16300123F9A /* TransactionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRecord.swift; sourceTree = "<group>"; };
-		FAE4D0972F7EA16300123F9A /* sfx_coil_rotate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_coil_rotate.wav; sourceTree = "<group>"; };
-		FAE4D0982F7EA16300123F9A /* sfx_lever_step.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_lever_step.wav; sourceTree = "<group>"; };
-		FAE4D0992F7EA16300123F9A /* sfx_point_click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_point_click.wav; sourceTree = "<group>"; };
-		FAE4D09A2F7EA16300123F9A /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
-		FAE4D09C2F7EA16300123F9A /* ScreenHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenHeaderView.swift; sourceTree = "<group>"; };
-		FAE4D09E2F7EA16300123F9A /* ConsoleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleScreenView.swift; sourceTree = "<group>"; };
-		FAE4D09F2F7EA16300123F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FAE4D0A02F7EA16300123F9A /* InputScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputScreenView.swift; sourceTree = "<group>"; };
-		FAE4D0A12F7EA16300123F9A /* RootTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarView.swift; sourceTree = "<group>"; };
-		FAE4D0A22F7EA16300123F9A /* ShopScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopScreenView.swift; sourceTree = "<group>"; };
-		FAE4D0A32F7EA16300123F9A /* StatsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreenView.swift; sourceTree = "<group>"; };
-		FAE4D0A62F7EA16300123F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5B542F2F8565D00090E5C9 /* AppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentView.swift; sourceTree = "<group>"; };
+		FA5B54312F8565D00090E5C9 /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
+		FA5B54322F8565D00090E5C9 /* ConsolasFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsolasFont+Extension.swift"; sourceTree = "<group>"; };
+		FA5B54332F8565D00090E5C9 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		FA5B54352F8565D00090E5C9 /* ShiftDaySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftDaySummary.swift; sourceTree = "<group>"; };
+		FA5B54362F8565D00090E5C9 /* StationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationState.swift; sourceTree = "<group>"; };
+		FA5B54372F8565D00090E5C9 /* TransactionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRecord.swift; sourceTree = "<group>"; };
+		FA5B54392F8565D00090E5C9 /* sfx_coil_rotate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_coil_rotate.wav; sourceTree = "<group>"; };
+		FA5B543A2F8565D00090E5C9 /* sfx_lever_step.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_lever_step.wav; sourceTree = "<group>"; };
+		FA5B543B2F8565D00090E5C9 /* sfx_point_click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_point_click.wav; sourceTree = "<group>"; };
+		FA5B543C2F8565D00090E5C9 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		FA5B543E2F8565D00090E5C9 /* ScreenHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenHeaderView.swift; sourceTree = "<group>"; };
+		FA5B54402F8565D00090E5C9 /* ConsoleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleScreenView.swift; sourceTree = "<group>"; };
+		FA5B54412F8565D00090E5C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA5B54422F8565D00090E5C9 /* InputScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputScreenView.swift; sourceTree = "<group>"; };
+		FA5B54432F8565D00090E5C9 /* MissionsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsScreenView.swift; sourceTree = "<group>"; };
+		FA5B54442F8565D00090E5C9 /* RootTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarView.swift; sourceTree = "<group>"; };
+		FA5B54452F8565D00090E5C9 /* ShopScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopScreenView.swift; sourceTree = "<group>"; };
+		FA5B54462F8565D00090E5C9 /* StatsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreenView.swift; sourceTree = "<group>"; };
+		FA5B54492F8565D00090E5C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -96,7 +98,7 @@
 		CE71152B2E6F0AB000BFCB5A = {
 			isa = PBXGroup;
 			children = (
-				FAE4D0A72F7EA16300123F9A /* MercuryFinancialStation */,
+				FA5B544A2F8565D00090E5C9 /* MercuryFinancialStation */,
 				CE9DBAB62E9014FA0065A837 /* AppsFlyer */,
 				CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */,
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
@@ -121,84 +123,85 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAE4D08E2F7EA16300123F9A /* App */ = {
+		FA5B54302F8565D00090E5C9 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D08D2F7EA16300123F9A /* MercuryFinancialStationApp.swift */,
+				FA5B542F2F8565D00090E5C9 /* AppContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		FAE4D0922F7EA16300123F9A /* helpers */ = {
+		FA5B54342F8565D00090E5C9 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D08F2F7EA16300123F9A /* Colors+Extension.swift */,
-				FAE4D0902F7EA16300123F9A /* ConsolasFont+Extension.swift */,
-				FAE4D0912F7EA16300123F9A /* NotificationManager.swift */,
+				FA5B54312F8565D00090E5C9 /* Colors+Extension.swift */,
+				FA5B54322F8565D00090E5C9 /* ConsolasFont+Extension.swift */,
+				FA5B54332F8565D00090E5C9 /* NotificationManager.swift */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
 		};
-		FAE4D0962F7EA16300123F9A /* Model */ = {
+		FA5B54382F8565D00090E5C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D0932F7EA16300123F9A /* ShiftDaySummary.swift */,
-				FAE4D0942F7EA16300123F9A /* StationState.swift */,
-				FAE4D0952F7EA16300123F9A /* TransactionRecord.swift */,
+				FA5B54352F8565D00090E5C9 /* ShiftDaySummary.swift */,
+				FA5B54362F8565D00090E5C9 /* StationState.swift */,
+				FA5B54372F8565D00090E5C9 /* TransactionRecord.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FAE4D09B2F7EA16300123F9A /* Sounds */ = {
+		FA5B543D2F8565D00090E5C9 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D0972F7EA16300123F9A /* sfx_coil_rotate.wav */,
-				FAE4D0982F7EA16300123F9A /* sfx_lever_step.wav */,
-				FAE4D0992F7EA16300123F9A /* sfx_point_click.wav */,
-				FAE4D09A2F7EA16300123F9A /* SoundManager.swift */,
+				FA5B54392F8565D00090E5C9 /* sfx_coil_rotate.wav */,
+				FA5B543A2F8565D00090E5C9 /* sfx_lever_step.wav */,
+				FA5B543B2F8565D00090E5C9 /* sfx_point_click.wav */,
+				FA5B543C2F8565D00090E5C9 /* SoundManager.swift */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		FAE4D09D2F7EA16300123F9A /* Components */ = {
+		FA5B543F2F8565D00090E5C9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D09C2F7EA16300123F9A /* ScreenHeaderView.swift */,
+				FA5B543E2F8565D00090E5C9 /* ScreenHeaderView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		FAE4D0A42F7EA16300123F9A /* Screens */ = {
+		FA5B54472F8565D00090E5C9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D09E2F7EA16300123F9A /* ConsoleScreenView.swift */,
-				FAE4D09F2F7EA16300123F9A /* ContentView.swift */,
-				FAE4D0A02F7EA16300123F9A /* InputScreenView.swift */,
-				FAE4D0A12F7EA16300123F9A /* RootTabBarView.swift */,
-				FAE4D0A22F7EA16300123F9A /* ShopScreenView.swift */,
-				FAE4D0A32F7EA16300123F9A /* StatsScreenView.swift */,
+				FA5B54402F8565D00090E5C9 /* ConsoleScreenView.swift */,
+				FA5B54412F8565D00090E5C9 /* ContentView.swift */,
+				FA5B54422F8565D00090E5C9 /* InputScreenView.swift */,
+				FA5B54432F8565D00090E5C9 /* MissionsScreenView.swift */,
+				FA5B54442F8565D00090E5C9 /* RootTabBarView.swift */,
+				FA5B54452F8565D00090E5C9 /* ShopScreenView.swift */,
+				FA5B54462F8565D00090E5C9 /* StatsScreenView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		FAE4D0A52F7EA16300123F9A /* View */ = {
+		FA5B54482F8565D00090E5C9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D09D2F7EA16300123F9A /* Components */,
-				FAE4D0A42F7EA16300123F9A /* Screens */,
+				FA5B543F2F8565D00090E5C9 /* Components */,
+				FA5B54472F8565D00090E5C9 /* Screens */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		FAE4D0A72F7EA16300123F9A /* MercuryFinancialStation */ = {
+		FA5B544A2F8565D00090E5C9 /* MercuryFinancialStation */ = {
 			isa = PBXGroup;
 			children = (
-				FAE4D08E2F7EA16300123F9A /* App */,
-				FAE4D0922F7EA16300123F9A /* helpers */,
-				FAE4D0962F7EA16300123F9A /* Model */,
-				FAE4D09B2F7EA16300123F9A /* Sounds */,
-				FAE4D0A52F7EA16300123F9A /* View */,
-				FAE4D0A62F7EA16300123F9A /* Assets.xcassets */,
+				FA5B54302F8565D00090E5C9 /* App */,
+				FA5B54342F8565D00090E5C9 /* helpers */,
+				FA5B54382F8565D00090E5C9 /* Model */,
+				FA5B543D2F8565D00090E5C9 /* Sounds */,
+				FA5B54482F8565D00090E5C9 /* View */,
+				FA5B54492F8565D00090E5C9 /* Assets.xcassets */,
 			);
 			path = MercuryFinancialStation;
 			sourceTree = "<group>";
@@ -274,10 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */,
-				FAE4D0A82F7EA16300123F9A /* sfx_lever_step.wav in Resources */,
-				FAE4D0A92F7EA16300123F9A /* sfx_point_click.wav in Resources */,
-				FAE4D0AA2F7EA16300123F9A /* sfx_coil_rotate.wav in Resources */,
-				FAE4D0AB2F7EA16300123F9A /* Assets.xcassets in Resources */,
+				FA5B545B2F8565D00090E5C9 /* sfx_coil_rotate.wav in Resources */,
+				FA5B545C2F8565D00090E5C9 /* sfx_lever_step.wav in Resources */,
+				FA5B545D2F8565D00090E5C9 /* sfx_point_click.wav in Resources */,
+				FA5B545E2F8565D00090E5C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,21 +291,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE4D0AC2F7EA16300123F9A /* ConsoleScreenView.swift in Sources */,
-				FAE4D0AD2F7EA16300123F9A /* StatsScreenView.swift in Sources */,
-				FAE4D0AE2F7EA16300123F9A /* SoundManager.swift in Sources */,
-				FAE4D0AF2F7EA16300123F9A /* ShopScreenView.swift in Sources */,
-				FAE4D0B02F7EA16300123F9A /* ScreenHeaderView.swift in Sources */,
-				FAE4D0B12F7EA16300123F9A /* TransactionRecord.swift in Sources */,
-				FAE4D0B22F7EA16300123F9A /* NotificationManager.swift in Sources */,
-				FAE4D0B32F7EA16300123F9A /* ContentView.swift in Sources */,
-				FAE4D0B42F7EA16300123F9A /* ConsolasFont+Extension.swift in Sources */,
-				FAE4D0B52F7EA16300123F9A /* MercuryFinancialStationApp.swift in Sources */,
-				FAE4D0B62F7EA16300123F9A /* ShiftDaySummary.swift in Sources */,
-				FAE4D0B72F7EA16300123F9A /* RootTabBarView.swift in Sources */,
-				FAE4D0B82F7EA16300123F9A /* InputScreenView.swift in Sources */,
-				FAE4D0B92F7EA16300123F9A /* Colors+Extension.swift in Sources */,
-				FAE4D0BA2F7EA16300123F9A /* StationState.swift in Sources */,
+				FA5B544B2F8565D00090E5C9 /* InputScreenView.swift in Sources */,
+				FA5B544C2F8565D00090E5C9 /* ConsolasFont+Extension.swift in Sources */,
+				FA5B544D2F8565D00090E5C9 /* NotificationManager.swift in Sources */,
+				FA5B544E2F8565D00090E5C9 /* ConsoleScreenView.swift in Sources */,
+				FA5B544F2F8565D00090E5C9 /* ShopScreenView.swift in Sources */,
+				FA5B54502F8565D00090E5C9 /* ContentView.swift in Sources */,
+				FA5B54512F8565D00090E5C9 /* SoundManager.swift in Sources */,
+				FA5B54522F8565D00090E5C9 /* MissionsScreenView.swift in Sources */,
+				FA5B54532F8565D00090E5C9 /* ShiftDaySummary.swift in Sources */,
+				FA5B54542F8565D00090E5C9 /* TransactionRecord.swift in Sources */,
+				FA5B54552F8565D00090E5C9 /* Colors+Extension.swift in Sources */,
+				FA5B54562F8565D00090E5C9 /* RootTabBarView.swift in Sources */,
+				FA5B54572F8565D00090E5C9 /* AppContentView.swift in Sources */,
+				FA5B54582F8565D00090E5C9 /* StatsScreenView.swift in Sources */,
+				FA5B54592F8565D00090E5C9 /* ScreenHeaderView.swift in Sources */,
+				FA5B545A2F8565D00090E5C9 /* StationState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +458,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mercury Financial station";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to save photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your permission helps us measure which advertising campaigns led to app installs and evaluate marketing performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -492,7 +496,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mercury Financial station";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to save photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your permission helps us measure which advertising campaigns led to app installs and evaluate marketing performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
